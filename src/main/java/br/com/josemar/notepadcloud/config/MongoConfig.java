@@ -19,7 +19,7 @@ public class MongoConfig extends AbstractMongoConfiguration {
     @Value("${spring.data.mongodb.port}")
     private int mongoPort;
 
-    @Value("${spring.data.mongodb.database}")
+    @Value("${spring.data.mongodb.databasename}")
     private String mongoDB;
 
     @Value("${spring.data.mongodb.username}")
